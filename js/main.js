@@ -7,6 +7,8 @@ tituloH1.innerText =  "Mildred Chacón";
 
 
 
+
+
 const menuBoton = document.querySelector("#menu-bton");
 menuBoton.addEventListener("click", function(){
     document.body.classList.toggle("mobile-menu-active")
@@ -25,11 +27,4 @@ toggle.addEventListener("change", (evento)=>{
  
 })
 
-
-function miFuncion () {
-
-  var elemento =  document.getElementById("imagen");
-  elemento.src = "img\fotomiagmoi.png"
-  
-}
 
